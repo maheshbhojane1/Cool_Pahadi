@@ -1,0 +1,1391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cool Pahadi – Homestay in Rashi Village, Uttarakhand</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Raleway:wght@300;400;500;600&family=Tiro+Devanagari+Hindi&display=swap"
+      rel="stylesheet" -->
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="#hero" class="nav-logo">
+        <div class="logo-icon"><img src="assets/flowers.jpg" alt="" /></div>
+        <div>
+          <div class="logo-text">Cool Pahadi</div>
+          <!-- <div class="logo-sub">Rashi Village · Uttarakhand</div> -->
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#treks">Treks</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#privacy">Privacy</a></li>
+        <!-- <li>
+          <a
+            href="https://wa.me/918755812267?text=Hello%20Dippak%20ji%2C%20I%20would%20like%20to%20enquire%20about%20Cool%20Pahadi%20Homestay"
+            target="_blank"
+            class="nav-cta"
+            >📲 Book Now</a
+          >
+        </li> -->
+      </ul>
+      <div class="nav-socials">
+        <a
+          href="https://www.youtube.com/@CoolPahadi"
+          target="_blank"
+          class="nav-social-icon yt"
+          title="YouTube"
+          >▶</a
+        >
+        <a
+          href="https://www.instagram.com/cool.pahadi/"
+          target="_blank"
+          class="nav-social-icon ig"
+          title="Instagram"
+          >📸</a
+        >
+        <a
+          href="https://www.facebook.com/coolpahadiofficial/"
+          target="_blank"
+          class="nav-social-icon fb"
+          title="Facebook"
+          >f</a
+        >
+        <a
+          href="https://wa.me/918755812267"
+          target="_blank"
+          class="nav-social-icon wa"
+          title="WhatsApp"
+          >💬</a
+        >
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="mobile-close" id="mobileClose">✕</button>
+      <a href="#about" onclick="closeMobile()">About</a>
+      <a href="#rooms" onclick="closeMobile()">Rooms</a>
+      <a href="#food" onclick="closeMobile()">Food</a>
+      <a href="#treks" onclick="closeMobile()">Treks</a>
+      <a href="#contact" onclick="closeMobile()">Contact</a>
+      <a href="#privacy" onclick="closeMobile()">Privacy</a>
+      <a
+        href="https://wa.me/918755812267"
+        target="_blank"
+        style="color: #25d366"
+        >📲 Book on WhatsApp</a
+      >
+    </div>
+
+    <!-- ═══ HERO ═══ -->
+    <section id="hero">
+      <!-- Looping video background. Replace src with your actual homestay video URL -->
+      <!-- <video
+        id="hero-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1' height='1'/%3E"
+        <video src="assets/slowly.mp4"></video>
+      > -->
+      <video
+  id="hero-video"
+  autoplay
+  muted
+  loop
+  playsinline
+  poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1' height='1'/%3E"
+>
+  <source src="assets/slowly.mp4" type="video/mp4" />
+</video>
+        <!--
+      To add your actual video, replace or add:
+      <source src="YOUR_VIDEO_URL.mp4" type="video/mp4">
+      Until then, the gradient overlay shows.
+    -->
+      </video>
+
+      <!-- Fallback gradient when no video -->
+      <div
+        style="
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(
+            135deg,
+            #0a1a0a 0%,
+            #1a3a1a 30%,
+            #2d5a2d 60%,
+            #4a3728 100%
+          );
+          z-index: 0;
+        "
+      ></div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <span class="hero-deva">रासी गाँव</span>
+        <div class="hero-badge">
+          Rashi Village · Uttarakhand · Himalayan Homestay
+        </div>
+        <h1 class="hero-title">Cool <em>Pahadi</em></h1>
+        <p class="hero-sub">
+          Where the mountains breathe and the soul finds peace
+        </p>
+        <div class="hero-btns">
+          <a
+            href="https://wa.me/918755812267?text=Namaste%20Dippak%20ji%2C%20I%20want%20to%20book%20a%20stay%20at%20Cool%20Pahadi%20Homestay"
+            target="_blank"
+            class="btn-primary"
+            >📲 Enquire on WhatsApp</a
+          >
+          <a href="#rooms" class="btn-outline">Explore Rooms ↓</a>
+        </div>
+      </div>
+
+      <div class="scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ═══ ABOUT ═══ -->
+    <section id="about">
+      <div class="section-inner">
+        <div class="about-grid">
+          <div class="about-img-wrap reveal">
+            <div class="about-img-main">
+              <img src="assets/flower.jpg" alt="" />
+            </div>
+            <div class="about-img-accent">
+              <strong>❤️</strong>
+              <span>Made with<br />Pahadi Love</span>
+            </div>
+          </div>
+          <div class="about-text reveal">
+            <div class="section-label">Our Story</div>
+            <h2 class="section-title">
+              A Home in the <em>Heart of Himalaya</em>
+            </h2>
+            <div class="divider"></div>
+            <p>
+              Tucked away in the serene
+              <strong>Rashi Village of Uttarakhand</strong>, Cool Pahadi is not
+              just a homestay — it is an invitation to slow down, breathe the
+              crisp mountain air, and reconnect with nature. Our stone-and-wood
+              abode has been lovingly crafted to honour the traditional Kumaoni
+              architectural heritage.
+            </p>
+            <p>
+              Every corner tells a story of the mountains. Woven rugs,
+              handcrafted furniture, local art on the walls — every detail is
+              intentional. Our guests wake up to panoramic Himalayan views and
+              the sound of birds rather than alarm clocks.
+            </p>
+            <p>
+              We believe in <strong>responsible tourism</strong> — supporting
+              local artisans, farmers, and guides while offering an experience
+              that is deeply rooted in the culture of Uttarakhand.
+            </p>
+            <div class="about-owner">
+              <div class="owner-avatar">🧔</div>
+              <div class="owner-info">
+                <strong>Deepak Bisht</strong>
+                <span>Host & Founder · Rashi Village</span>
+                <a
+                  href="https://www.youtube.com/@CoolPahadi"
+                  target="_blank"
+                  class="yt-link"
+                >
+                  ▶ YouTube: Coole Pahadi
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ WHY WE ARE BEST ═══ -->
+    <section id="why">
+      <div class="section-inner">
+        <div class="reveal">
+          <div class="section-label">Why Choose Us</div>
+          <h2 class="section-title" style="color: var(--cream)">
+            Why Cool Pahadi is
+            <em style="color: var(--ochre)">Truly Different</em>
+          </h2>
+          <div class="divider"></div>
+        </div>
+        <div class="why-grid">
+          <div class="why-card reveal">
+            <span class="why-icon">🌿</span>
+            <h3>Pure Nature, Zero Noise</h3>
+            <p>
+              We are surrounded by ancient oak and rhododendron forests, away
+              from the city rush. The only alarm here is a crowing rooster and
+              the morning birds.
+            </p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon">🏔️</span>
+            <h3>Panoramic Himalayan Views</h3>
+            <p>
+              Wake up to unobstructed views of the great Himalayan range right
+              from your room window or the open sit-out verandah.
+            </p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon">🍲</span>
+            <h3>Authentic Uttarakhand Food</h3>
+            <p>
+              We serve traditional Kumaoni and Garhwali dishes made from locally
+              sourced, organic ingredients grown by our village farmers.
+            </p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon">🏡</span>
+            <h3>Traditional Architecture</h3>
+            <p>
+              Our homestay is built in classic Pahadi style with local stone,
+              wood, and slate — a living tribute to Uttarakhand's rich building
+              heritage.
+            </p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon">🥾</span>
+            <h3>Expert-Guided Treks</h3>
+            <p>
+              Deepak arranges treks to nearby peaks, waterfalls, and hidden
+              meadows with local expert guides who know every trail intimately.
+            </p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon">🤝</span>
+            <h3>Personal Host Experience</h3>
+            <p>
+              Your host Deepak Bisht is always present to ensure your comfort,
+              share stories, and make you feel like family — not just a guest.
+            </p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon">🔥</span>
+            <h3>Bonfire Evenings</h3>
+            <p>
+              Every evening, gather around a traditional bonfire with folk
+              music, chai, and the magic of the Himalayan night sky above.
+            </p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon">🚿</span>
+            <h3>Cosy & Clean Rooms</h3>
+            <p>
+              Spotlessly maintained rooms with geysers, comfortable beds, and
+              thoughtful traditional décor for a warm and homely experience.
+            </p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon">📵</span>
+            <h3>Digital Detox Paradise</h3>
+            <p>
+              Weak signal, strong soul. Cool Pahadi is the perfect place to
+              unplug, unwind, and reconnect with what truly matters.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ ROOMS ═══ -->
+    <section id="rooms">
+      <div class="section-inner">
+        <div class="reveal">
+          <div class="section-label">Our Rooms</div>
+          <h2 class="section-title">
+            Rooms Named After <em>Uttarakhand's Soul</em>
+          </h2>
+          <div class="divider"></div>
+          <p style="color: #6b5a45; max-width: 600px; line-height: 1.8">
+            Each room carries the name and spirit of a beloved Uttarakhand
+            destination — a reminder of the land you are now part of.
+          </p>
+        </div>
+        <div class="rooms-grid">
+          <!-- Room 1 -->
+          <div class="room-card reveal">
+            <div class="room-thumb room-auli">
+              ⛷️
+              <div class="room-thumb-badge">Mountain View</div>
+            </div>
+            <div class="room-body">
+              <div class="room-region">Chamoli · Garhwal</div>
+              <h3 class="room-name">Auli Suite</h3>
+              <p class="room-desc">
+                Named after the snow-kissed ski slopes of Auli, this room offers
+                the grandest view of the Himalayan range. Wrapped in warm pine
+                wood panels and woollen throws.
+              </p>
+              <div class="room-features">
+                <!-- <span class="room-feature">👨‍👩‍👧 2–3 Guests</span> -->
+                <span class="room-feature">🌄 Himalayan View</span>
+                <span class="room-feature">🔥 Fireplace</span>
+              </div>
+              <a
+                href="https://wa.me/918755812267?text=Hello%20Dippak%20ji%2C%20I%20am%20interested%20in%20the%20Auli%20Suite%20at%20Cool%20Pahadi%20Homestay.%20Please%20share%20availability%20and%20details."
+                target="_blank"
+                class="btn-enquire"
+              >
+                💬 Enquire on WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Room 2 -->
+          <div class="room-card reveal">
+            <div class="room-thumb room-chopta">
+              🌲
+              <div class="room-thumb-badge">Forest Facing</div>
+            </div>
+            <div class="room-body">
+              <div class="room-region">Rudraprayag · Garhwal</div>
+              <h3 class="room-name">Chopta Nest</h3>
+              <p class="room-desc">
+                Inspired by India's mini-Switzerland, the Chopta Nest opens into
+                a lush forest canopy. Birdsong is your morning alarm and the
+                meadows your evening retreat.
+              </p>
+              <div class="room-features">
+                <!-- <span class="room-feature">👫 2 Guests</span> -->
+                <span class="room-feature">🌲 Forest View</span>
+                <span class="room-feature">☕ Sit-Out</span>
+              </div>
+              <a
+                href="https://wa.me/918755812267?text=Namaste%20Dippak%20ji%2C%20I%20want%20to%20enquire%20about%20the%20Chopta%20Nest%20room%20at%20Cool%20Pahadi."
+                target="_blank"
+                class="btn-enquire"
+              >
+                💬 Enquire on WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Room 3 -->
+          <div class="room-card reveal">
+            <div class="room-thumb room-kedarnath">
+              🕉️
+              <div class="room-thumb-badge">Heritage Room</div>
+            </div>
+            <div class="room-body">
+              <div class="room-region">Rudraprayag · Garhwal</div>
+              <h3 class="room-name">Kedarnath Kothri</h3>
+              <p class="room-desc">
+                A deeply traditional room honouring the divine Kedarnath Dham.
+                Adorned with Garhwali folk art, brass lamps, and handwoven
+                fabric — a spiritual retreat.
+              </p>
+              <div class="room-features">
+                <!-- <span class="room-feature">👨‍👩‍👧‍👦 4 Guests</span> -->
+                <span class="room-feature">🕉️ Heritage Décor</span>
+                <span class="room-feature">🛖 Family Room</span>
+              </div>
+              <a
+                href="https://wa.me/918755812267?text=Hello%2C%20I%20want%20to%20book%20the%20Kedarnath%20Kothri%20room%20at%20Cool%20Pahadi%20Homestay."
+                target="_blank"
+                class="btn-enquire"
+              >
+                💬 Enquire on WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Room 4 -->
+          <div class="room-card reveal">
+            <div class="room-thumb room-nainital">
+              🌊
+              <div class="room-thumb-badge">Valley View</div>
+            </div>
+            <div class="room-body">
+              <div class="room-region">Nainital · Kumaon</div>
+              <h3 class="room-name">Nainital Baithak</h3>
+              <p class="room-desc">
+                The cool blue of the Naini Lake lives in this room's palette —
+                calm, peaceful, inviting. A spacious baithak with traditional
+                Kumaoni kilims and valley views.
+              </p>
+              <div class="room-features">
+                <!-- <span class="room-feature">👨‍👩‍👧 2–3 Guests</span> -->
+                <span class="room-feature">🌊 Valley View</span>
+                <span class="room-feature">🪟 Bay Window</span>
+              </div>
+              <a
+                href="https://wa.me/918755812267?text=Namaste%2C%20I%20would%20like%20to%20know%20more%20about%20the%20Nainital%20Baithak%20room%20at%20Cool%20Pahadi."
+                target="_blank"
+                class="btn-enquire"
+              >
+                💬 Enquire on WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Room 5 -->
+          <div class="room-card reveal">
+            <div class="room-thumb room-binsar">
+              🌅
+              <div class="room-thumb-badge">Sunrise Special</div>
+            </div>
+            <div class="room-body">
+              <div class="room-region">Almora · Kumaon</div>
+              <h3 class="room-name">Binsar Sunrise Room</h3>
+              <p class="room-desc">
+                Named after the famous Binsar Wildlife Sanctuary, this
+                east-facing room gifts you the most breathtaking golden sunrise
+                over the Himalayan peaks.
+              </p>
+              <div class="room-features">
+                <!-- <span class="room-feature">👫 2 Guests</span> -->
+                <span class="room-feature">🌅 Sunrise View</span>
+                <span class="room-feature">🌿 Garden Access</span>
+              </div>
+              <a
+                href="https://wa.me/918755812267?text=Hello%20Dippak%20ji%2C%20I%20am%20interested%20in%20the%20Binsar%20Sunrise%20Room.%20When%20is%20it%20available%3F"
+                target="_blank"
+                class="btn-enquire"
+              >
+                💬 Enquire on WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Room 6 -->
+          <div class="room-card reveal">
+            <div class="room-thumb room-munsiyari">
+              ❄️
+              <div class="room-thumb-badge">Premium Room</div>
+            </div>
+            <div class="room-body">
+              <div class="room-region">Pithoragarh · Kumaon</div>
+              <h3 class="room-name">Munsiyari Loft</h3>
+              <p class="room-desc">
+                The crown jewel. Named after the Little Kashmir of Uttarakhand,
+                this loft-style room has the finest views, the warmest
+                interiors, and the most peaceful aura.
+              </p>
+              <div class="room-features">
+                <!-- <span class="room-feature">👫 2 Guests</span> -->
+                <span class="room-feature">❄️ Snow View</span>
+                <span class="room-feature">🏆 Premium</span>
+              </div>
+              <a
+                href="https://wa.me/918755812267?text=Namaste%2C%20I%20want%20to%20enquire%20about%20the%20Munsiyari%20Loft%20%E2%80%94%20the%20premium%20room%20at%20Cool%20Pahadi."
+                target="_blank"
+                class="btn-enquire"
+              >
+                💬 Enquire on WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ FOOD & KITCHEN ═══ -->
+    <section id="food">
+      <div class="section-inner">
+        <div class="reveal">
+          <div class="section-label">Pahadi Thali & Kitchen</div>
+          <h2 class="section-title" style="color: var(--cream)">
+            Taste the <em style="color: var(--ochre)">Mountains</em>
+          </h2>
+          <div class="divider"></div>
+        </div>
+        <div class="food-layout">
+          <ul class="food-list reveal">
+            <li>
+              <span class="food-emoji">🍲</span>
+              <div class="food-info">
+                <strong>Aloo Ke Gutke</strong>
+                <span
+                  >Crispy Pahadi potatoes tempered with jakhiya seeds — the
+                  quintessential Uttarakhand comfort dish.</span
+                >
+              </div>
+            </li>
+            <li>
+              <span class="food-emoji">🥣</span>
+              <div class="food-info">
+                <strong>Kafuli & Chainsu</strong>
+                <span
+                  >Traditional spinach curry and dal made from local grains.
+                  Served with thick mandua (finger millet) rotis.</span
+                >
+              </div>
+            </li>
+            <li>
+              <span class="food-emoji">🥣</span>
+              <div class="food-info">
+                <strong>Gahat Ki Dal</strong>
+                <span
+                  >Horse-gram lentils slow-cooked with mountain herbs — rich in
+                  protein and deeply warming.</span
+                >
+              </div>
+            </li>
+            <li>
+              <span class="food-emoji">🍵</span>
+              <div class="food-info">
+                <strong>Buransh & Tulsi Chai</strong>
+                <span
+                  >A herbal tea made from Rhododendron flowers and tulsi leaves,
+                  plucked fresh from our garden.</span
+                >
+              </div>
+            </li>
+            <li>
+              <span class="food-emoji">🍯</span>
+              <div class="food-info">
+                <strong>Local Honey & Bal Mithai</strong>
+                <span
+                  >Wild Pahadi honey and Kumaon's famous Bal Mithai — the
+                  sweetest way to end any meal.</span
+                >
+              </div>
+            </li>
+          </ul>
+          <div class="food-highlight reveal">
+            <span class="big-emoji">🍳</span>
+            <h3>Separate Guest Kitchen</h3>
+            <p>
+              We offer a fully equipped, clean, and dedicated kitchen
+              exclusively for our guests. Whether you want to cook your own
+              breakfast or try your hand at a Pahadi recipe, our kitchen is
+              yours to use anytime.
+            </p>
+            <p>
+              Equipped with gas stove, utensils, refrigerator, and all basic
+              supplies. Locally sourced vegetables and spices available on
+              request.
+            </p>
+            <span class="kitchen-badge">🔑 Your Private Kitchen</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ TREKS ═══ -->
+    <section id="treks">
+      <div class="section-inner">
+        <div class="reveal">
+          <div class="section-label">Adventure Awaits</div>
+          <h2 class="section-title">
+            Treks & Trails <em>Near Our Doorstep</em>
+          </h2>
+          <div class="divider"></div>
+          <p
+            style="
+              color: #6b5a45;
+              max-width: 600px;
+              line-height: 1.8;
+              margin-bottom: 0;
+            "
+          >
+            Deepak personally curates and arranges treks from nearest to Cool
+            Pahadi, with local expert guides who know these mountains like the
+            back of their hand.
+          </p>
+        </div>
+        <div class="trek-grid">
+          <div class="trek-card reveal">
+            <div class="trek-bg"><img src="assets/village-walk.jpg" alt=""></div>
+            <div class="trek-overlay"></div>
+            <div class="trek-info">
+              <span class="trek-difficulty diff-easy">Easy</span>
+              <h3>Rashi Village Walk</h3>
+              <div class="trek-meta">
+                <span>⏱ 10 Min</span><span>📍 Starts here</span>
+              </div>
+            </div>
+          </div>
+          <div class="trek-card reveal">
+            <div class="trek-bg"><img src="assets/watter-fall.jpg" alt=""></div>
+            <div class="trek-overlay"></div>
+            <div class="trek-info">
+              <span class="trek-difficulty diff-easy">Easy</span>
+              <h3>Local Waterfall Trail</h3>
+              <div class="trek-meta">
+                <span>⏱ 1-2 hrs</span><span>📍 2 km away</span>
+              </div>
+            </div>
+          </div>
+          <div class="trek-card reveal">
+            <div class="trek-bg"><img src="assets/valley-flowers.jpg" alt=""></div>
+            <div class="trek-overlay"></div>
+            <div class="trek-info">
+              <span class="trek-difficulty diff-mod">Moderate</span>
+              <h3>Forest & Wildlife Trek</h3>
+              <div class="trek-meta">
+                <span>⏱ 4–5 hrs</span><span>📍 5 km away</span>
+              </div>
+            </div>
+          </div>
+          <div class="trek-card reveal">
+            <div class="trek-bg"><img src="assets/chopta.jpg" alt=""></div>
+            <div class="trek-overlay"></div>
+            <div class="trek-info">
+              <span class="trek-difficulty diff-hard">Challenging</span>
+              <h3>Madmaheshwar Trek</h3>
+              <div class="trek-meta">
+                <span>⏱ Full Day</span><span>📍 8 km away</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top: 40px; text-align: center" class="reveal">
+          <a
+            href="https://wa.me/918755812267?text=Hello%20Dippak%20ji%2C%20I%20want%20to%20arrange%20a%20trek%20during%20my%20stay%20at%20Cool%20Pahadi.%20Please%20guide%20me."
+            target="_blank"
+            class="btn-primary"
+            >📲 Arrange a Trek via WhatsApp</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ GALLERY ═══ -->
+    <section id="gallery">
+      <div class="section-inner">
+        <div class="reveal">
+          <div class="section-label">Visual Diary</div>
+          <h2 class="section-title" style="color: var(--cream)">
+            Life at <em style="color: var(--ochre)">Cool Pahadi</em>
+          </h2>
+          <div class="divider"></div>
+          <p class="gallery-desc">
+            Every frame here is a feeling — misty mornings, golden sunsets, the
+            warmth of a bonfire, and the serenity of the mountains.
+          </p>
+        </div>
+        <div class="gallery-grid reveal">
+          <div
+            class="gallery-item wide"
+            style="background: linear-gradient(135deg, #1a3a1a, #3d6b3d)"
+          >
+            <img src="assets/culture-festival.jpg" alt="">
+          </div>
+          <div
+            class="gallery-item"
+            style="background: linear-gradient(135deg, #3d4a1a, #7a8a3a)"
+          >
+            <img src="assets/weaving.jpg" alt="">
+          </div>
+          <div
+            class="gallery-item tall"
+            style="background: linear-gradient(135deg, #1a2a3a, #3a5a7a)"
+          >
+            <img src="assets/snow-peaks.jpg" alt="">
+          </div>
+          <div
+            class="gallery-item"
+            style="background: linear-gradient(135deg, #3a1a1a, #7a3a2a)"
+          >
+            <img src="assets/temple.jpg" alt="">
+          </div>
+          <div
+            class="gallery-item"
+            style="background: linear-gradient(135deg, #1a1a3a, #3a3a7a)"
+          >
+           <img src="assets/pahadi-food.jpg" alt=""> 
+          </div>
+          <div
+            class="gallery-item "
+            style="background: linear-gradient(135deg, #2a3a1a, #5a7a3a)"
+          >
+            <img src="assets/kedarnath.jpg" alt="">
+          </div>
+          <!-- <div
+            class="gallery-item"
+            style="background: linear-gradient(135deg, #3a2a1a, #7a5a3a)"
+          >
+            ☕
+          </div> -->
+        </div>
+        <p
+          style="
+            color: var(--sage);
+            font-size: 0.82rem;
+            margin-top: 20px;
+            text-align: center;
+            opacity: 0.7;
+          "
+        >
+          📸 Follow <strong>@CoolePahadi</strong> on YouTube for real homestay
+          videos & Uttarakhand travel vlogs
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══ TESTIMONIALS ═══ -->
+    <section id="testimonials">
+      <div class="section-inner">
+        <div class="reveal">
+          <div class="section-label">Guest Stories</div>
+          <h2 class="section-title">What Our Guests <em>Say</em></h2>
+          <div class="divider"></div>
+        </div>
+        <div class="test-grid">
+          <div class="test-card reveal">
+            <div class="test-stars">★★★★★</div>
+            <p class="test-quote">
+              Staying at Cool Pahadi was a life-changing experience. The food,
+              the views, the warmth of Deepak bhai — everything was simply
+              magical. I'll be back every year!
+            </p>
+            <div class="test-author">
+              <div class="test-avatar">👩</div>
+              <div class="test-name">
+                <strong>Priya Sharma</strong><span>Delhi · Solo Traveller</span>
+              </div>
+            </div>
+          </div>
+          <div class="test-card reveal">
+            <div class="test-stars">★★★★★</div>
+            <p class="test-quote">
+              The Kedarnath Kothri room was like stepping into a different era.
+              Traditional décor, fresh mountain air, and the most delicious
+              Gahat ki dal I've ever had. Absolutely loved it.
+            </p>
+            <div class="test-author">
+              <div class="test-avatar">👨</div>
+              <div class="test-name">
+                <strong>Rahul Mehta</strong><span>Mumbai · Family Trip</span>
+              </div>
+            </div>
+          </div>
+          <div class="test-card reveal">
+            <div class="test-stars">★★★★★</div>
+            <p class="test-quote">
+              We arranged a trek through Deepak bhai and it was phenomenal. The
+              guide knew every trail, every bird, every flower. The bonfire
+              night was the highlight of our entire trip to Uttarakhand.
+            </p>
+            <div class="test-author">
+              <div class="test-avatar">👫</div>
+              <div class="test-name">
+                <strong>Arjun & Kavya</strong><span>Bengaluru · Couple</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ YOUTUBE CHANNEL ═══ -->
+    <section id="youtube">
+      <div class="section-inner">
+        <div class="yt-content">
+          <a
+            href="https://www.youtube.com/@coolePahadi"
+            target="_blank"
+            class="yt-player reveal"
+          >
+            <span class="yt-play">▶️</span>
+            <div class="yt-channel-name">Coole Pahadi</div>
+            <div class="yt-sub">YouTube Channel by Deepak Bisht</div>
+          </a>
+          <div class="yt-info reveal">
+            <div class="section-label">On YouTube</div>
+            <h2 class="section-title" style="color: var(--cream)">
+              Watch the <em style="color: var(--ochre)">Mountains</em> Come
+              Alive
+            </h2>
+            <div class="divider"></div>
+            <p>
+              Deepak Bisht runs the popular YouTube channel
+              <strong style="color: var(--wheat)">Coole Pahadi</strong> — your
+              window to raw, authentic Uttarakhand life. From trekking vlogs and
+              village stories to seasonal travel guides and Pahadi culture, it's
+              the perfect way to feel the mountains before you arrive.
+            </p>
+            <p>
+              Watch, subscribe, and let the Himalayas call you. See the real
+              Cool Pahadi experience captured in every video.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://www.youtube.com/@CoolPahadi"
+                target="_blank"
+                class="social-link social-yt"
+                >▶ YouTube: Coole Pahadi</a
+              >
+              <a
+                href="https://wa.me/918755812267"
+                target="_blank"
+                class="social-link social-wa"
+                >💬 WhatsApp Deepak</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ CONTACT ═══ -->
+    <section id="contact">
+      <div class="section-inner">
+        <div class="reveal">
+          <div class="section-label">Reach Out</div>
+          <h2 class="section-title" style="color: var(--cream)">
+            Plan Your <em style="color: var(--ochre)">Mountain Escape</em>
+          </h2>
+          <div class="divider"></div>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p>
+              Whether you want to check availability, arrange a custom trek, or
+              simply ask about life at Cool Pahadi — Deepak bhai is always just
+              a WhatsApp message away.
+            </p>
+            <div class="contact-items">
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-detail">
+                  <strong>Location</strong>
+                  <span
+                    >Rashi Village, Uttarakhand<br />India — in the lap of the
+                    Himalayas</span
+                  >
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">📲</div>
+                <div class="contact-detail">
+                  <strong>WhatsApp / Call</strong>
+                  <span>Deepak Bisht (Host)</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">▶</div>
+                <div class="contact-detail">
+                  <strong>YouTube</strong>
+                  <span
+                    >youtube.com/@coolePahadi<br />Subscribe for Uttarakhand
+                    travel vlogs</span
+                  >
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">🌡️</div>
+                <div class="contact-detail">
+                  <strong>Best Time to Visit</strong>
+                  <span
+                    >March–June & September–November<br />Snow season:
+                    December–February</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap reveal">
+            <h3
+              style="
+                font-family: &quot;Playfair Display&quot;, serif;
+                color: var(--wheat);
+                font-size: 1.4rem;
+                margin-bottom: 28px;
+              "
+            >
+              Send an Enquiry
+            </h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" placeholder="Full name" />
+              </div>
+              <div class="form-group">
+                <label>Phone / WhatsApp</label>
+                <input type="tel" placeholder="+91 XXXXX XXXXX" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Check-In Date</label>
+                <input type="date" />
+              </div>
+              <div class="form-group">
+                <label>Check-Out Date</label>
+                <input type="date" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Room Preference</label>
+              <select>
+                <option value="">Select a room</option>
+                <option>Auli Suite</option>
+                <option>Chopta Nest</option>
+                <option>Kedarnath Kothri</option>
+                <option>Nainital Baithak</option>
+                <option>Binsar Sunrise Room</option>
+                <option>Munsiyari Loft</option>
+                <option>Any available</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Your Message</label>
+              <textarea
+                placeholder="Tell us about your plans, group size, trekking interests, or anything you'd like to know…"
+              ></textarea>
+            </div>
+            <button class="btn-submit" onclick="sendWhatsApp()">
+              📲 Send via WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ PRIVACY POLICY ═══ -->
+    <section id="privacy">
+      <div class="section-inner">
+        <div class="reveal">
+          <div class="section-label">Legal</div>
+          <h2 class="section-title">Privacy Policy</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="privacy-content reveal">
+          <p>
+            This Privacy Policy describes how Cool Pahadi Homestay ("we", "us",
+            or "our"), operated by Deepak Bisht from Rashi Village, Uttarakhand,
+            collects, uses, and protects your personal information when you use
+            our website or communicate with us.
+          </p>
+
+          <h3>Information We Collect</h3>
+          <p>
+            When you contact us via WhatsApp, fill our enquiry form, or visit
+            our website, we may collect:
+          </p>
+          <ul>
+            <li>Your name, phone number, and WhatsApp contact</li>
+            <li>Travel dates, room preferences, and group size</li>
+            <li>Email address (if provided voluntarily)</li>
+            <li>
+              General location data via browser (for maps, only if permitted)
+            </li>
+          </ul>
+
+          <h3>How We Use Your Information</h3>
+          <p>
+            We use your information solely to respond to booking enquiries,
+            share availability and details of our homestay, and arrange your
+            stay, treks, and additional services. We do not sell, share, or
+            transfer your data to any third party for marketing purposes.
+          </p>
+
+          <h3>WhatsApp Communication</h3>
+          <p>
+            When you click our WhatsApp enquiry buttons, you are directed to
+            WhatsApp (a Meta platform). Any conversation on WhatsApp is subject
+            to WhatsApp's own Privacy Policy. We use WhatsApp only for
+            homestay-related communication.
+          </p>
+
+          <h3>YouTube Channel</h3>
+          <p>
+            Our YouTube channel "Coole Pahadi" is hosted on YouTube (a Google
+            platform). Videos may include footage of common areas of the
+            homestay. Guest appearances in videos are only with explicit
+            consent.
+          </p>
+
+          <h3>Cookies & Tracking</h3>
+          <p>
+            This website does not use tracking cookies, analytics scripts, or
+            advertising pixels. We do not track your browsing behaviour.
+          </p>
+
+          <h3>Data Security</h3>
+          <p>
+            We take reasonable steps to protect your personal information. Your
+            contact details are stored only on our personal device and are not
+            shared without your knowledge.
+          </p>
+
+          <h3>Your Rights</h3>
+          <p>
+            You have the right to request deletion of any personal information
+            you have shared with us. To do so, simply contact Deepak Bisht via
+            WhatsApp at +91 8755812267.
+          </p>
+
+          <h3>Contact</h3>
+          <p>
+            For any privacy-related concerns, please contact:<br />
+            <strong style="color: var(--wheat)">Deepak Bisht</strong>, Cool
+            Pahadi Homestay, Rashi Village, Uttarakhand, India.<br />
+            WhatsApp: +91 8755812267
+          </p>
+
+          <p style="margin-top: 28px; color: #5a6a4a; font-size: 0.82rem">
+            Last updated: 2026. This policy may be updated periodically. Please
+            check back for any changes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ GUEST REVIEWS ═══ -->
+    <section id="guest-reviews">
+      <div class="section-inner">
+        <div class="reveal">
+          <div class="section-label">Your Voice Matters</div>
+          <h2 class="section-title">
+            Share Your <em style="color: var(--ochre)">Pahadi Experience</em>
+          </h2>
+          <div class="divider"></div>
+          <p style="color: var(--sage); max-width: 580px; line-height: 1.8">
+            Stayed with us? Your review means the world to us — and helps other
+            travellers discover the magic of Cool Pahadi. Every story counts.
+          </p>
+        </div>
+        <div class="reviews-layout">
+          <!-- ── SUBMIT FORM ── -->
+          <div class="review-form-box reveal">
+            <h3>Write a Review</h3>
+            <p>
+              Tell us about your stay — your honest words inspire others to find
+              their mountain home.
+            </p>
+
+            <div class="rf-group">
+              <label>Your Name *</label>
+              <input
+                type="text"
+                id="rv-name"
+                placeholder="e.g. Priya from Delhi"
+              />
+            </div>
+
+            <div class="rf-group">
+              <label>Where are you from?</label>
+              <input type="text" id="rv-city" placeholder="City / State" />
+            </div>
+
+            <div class="rf-group">
+              <label>Room you stayed in</label>
+              <select id="rv-room">
+                <option value="">Select your room</option>
+                <option>Auli Suite</option>
+                <option>Chopta Nest</option>
+                <option>Kedarnath Kothri</option>
+                <option>Nainital Baithak</option>
+                <option>Binsar Sunrise Room</option>
+                <option>Munsiyari Loft</option>
+                <option>Visited without staying</option>
+              </select>
+            </div>
+
+            <div class="rf-group">
+              <label>Your Rating *</label>
+              <div class="star-picker" id="rv-stars">
+                <input type="radio" name="rating" id="s5" value="5" /><label
+                  for="s5"
+                  >★</label
+                >
+                <input type="radio" name="rating" id="s4" value="4" /><label
+                  for="s4"
+                  >★</label
+                >
+                <input type="radio" name="rating" id="s3" value="3" /><label
+                  for="s3"
+                  >★</label
+                >
+                <input type="radio" name="rating" id="s2" value="2" /><label
+                  for="s2"
+                  >★</label
+                >
+                <input type="radio" name="rating" id="s1" value="1" /><label
+                  for="s1"
+                  >★</label
+                >
+              </div>
+            </div>
+
+            <div class="rf-group">
+              <label>What did you love most?</label>
+              <div class="tag-chips">
+                <input
+                  class="tag-chip"
+                  type="checkbox"
+                  id="t1"
+                  value="Food"
+                /><label class="tag-chip-label" for="t1">🍲 Food</label>
+                <input
+                  class="tag-chip"
+                  type="checkbox"
+                  id="t2"
+                  value="Views"
+                /><label class="tag-chip-label" for="t2">🏔️ Views</label>
+                <input
+                  class="tag-chip"
+                  type="checkbox"
+                  id="t3"
+                  value="Hospitality"
+                /><label class="tag-chip-label" for="t3">🤝 Hospitality</label>
+                <input
+                  class="tag-chip"
+                  type="checkbox"
+                  id="t4"
+                  value="Trekking"
+                /><label class="tag-chip-label" for="t4">🥾 Trekking</label>
+                <input
+                  class="tag-chip"
+                  type="checkbox"
+                  id="t5"
+                  value="Bonfire"
+                /><label class="tag-chip-label" for="t5">🔥 Bonfire</label>
+                <input
+                  class="tag-chip"
+                  type="checkbox"
+                  id="t6"
+                  value="Cleanliness"
+                /><label class="tag-chip-label" for="t6">✨ Cleanliness</label>
+                <input
+                  class="tag-chip"
+                  type="checkbox"
+                  id="t7"
+                  value="Peaceful"
+                /><label class="tag-chip-label" for="t7">🌿 Peaceful</label>
+                <input
+                  class="tag-chip"
+                  type="checkbox"
+                  id="t8"
+                  value="Room Decor"
+                /><label class="tag-chip-label" for="t8">🏡 Room Decor</label>
+              </div>
+            </div>
+
+            <div class="rf-group">
+              <label>Your Review *</label>
+              <textarea
+                id="rv-text"
+                placeholder="Describe your experience — the views, the food, the vibe, the people. Let others feel what you felt…"
+              ></textarea>
+            </div>
+
+            <button class="btn-post-review" onclick="postReview()">
+              🏔️ Post My Review
+            </button>
+            <div class="review-success" id="rv-success">
+              🙏 Shukriya! Your review has been shared.<br />
+              <span style="font-size: 0.78rem; opacity: 0.8"
+                >It now lives on our page for all to see.</span
+              >
+            </div>
+          </div>
+
+          <!-- ── DISPLAY PANEL ── -->
+          <div class="reviews-display reveal">
+            <div class="reviews-header">
+              <div class="reviews-summary">
+                <div class="avg-score">
+                  <span class="big-num" id="avg-num">—</span>
+                  <span class="avg-stars" id="avg-stars-disp">☆☆☆☆☆</span>
+                  <span class="avg-count" id="avg-count-disp"
+                    >No reviews yet</span
+                  >
+                </div>
+                <div class="rating-bars" id="rating-bars">
+                  <div class="rating-bar-row">
+                    <span class="rbar-label">5</span>
+                    <div class="rbar-track">
+                      <div class="rbar-fill" id="bar5" style="width: 0%"></div>
+                    </div>
+                    <span class="rbar-count" id="cnt5">0</span>
+                  </div>
+                  <div class="rating-bar-row">
+                    <span class="rbar-label">4</span>
+                    <div class="rbar-track">
+                      <div class="rbar-fill" id="bar4" style="width: 0%"></div>
+                    </div>
+                    <span class="rbar-count" id="cnt4">0</span>
+                  </div>
+                  <div class="rating-bar-row">
+                    <span class="rbar-label">3</span>
+                    <div class="rbar-track">
+                      <div class="rbar-fill" id="bar3" style="width: 0%"></div>
+                    </div>
+                    <span class="rbar-count" id="cnt3">0</span>
+                  </div>
+                  <div class="rating-bar-row">
+                    <span class="rbar-label">2</span>
+                    <div class="rbar-track">
+                      <div class="rbar-fill" id="bar2" style="width: 0%"></div>
+                    </div>
+                    <span class="rbar-count" id="cnt2">0</span>
+                  </div>
+                  <div class="rating-bar-row">
+                    <span class="rbar-label">1</span>
+                    <div class="rbar-track">
+                      <div class="rbar-fill" id="bar1" style="width: 0%"></div>
+                    </div>
+                    <span class="rbar-count" id="cnt1">0</span>
+                  </div>
+                </div>
+              </div>
+              <div class="review-sort">
+                <button
+                  class="sort-btn active"
+                  onclick="sortReviews('newest', this)"
+                >
+                  Newest
+                </button>
+                <button class="sort-btn" onclick="sortReviews('highest', this)">
+                  Top Rated
+                </button>
+                <button class="sort-btn" onclick="sortReviews('helpful', this)">
+                  Helpful
+                </button>
+              </div>
+            </div>
+            <div class="reviews-list" id="reviews-list">
+              <div class="no-reviews">
+                <span class="no-rv-emoji">🌿</span>
+                <p>
+                  No reviews yet — be the first to share your Cool Pahadi
+                  story!<br />Your words will inspire the next traveller.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ FOOTER ═══ -->
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span
+            class="logo-text"
+            style="
+              font-family: &quot;Playfair Display&quot;, serif;
+              color: var(--wheat);
+            "
+            >Cool Pahadi</span
+          >
+          <div
+            class="logo-sub"
+            style="
+              font-family: &quot;Raleway&quot;, sans-serif;
+              font-size: 0.7rem;
+              letter-spacing: 0.2em;
+              color: var(--sage);
+              text-transform: uppercase;
+            "
+          ></div>
+          <p>
+            A traditional Pahadi homestay nestled in the Himalayan village of
+            Rashi, offering an authentic Uttarakhand experience rooted in
+            nature, culture, and warm hospitality.
+          </p>
+          <div class="footer-socials">
+            <a
+              href="https://www.youtube.com/@CoolPahadi"
+              target="_blank"
+              class="nav-social-icon yt"
+              title="YouTube"
+              >▶</a
+            >
+            <a
+              href="https://www.instagram.com/cool.pahadi/"
+              target="_blank"
+              class="nav-social-icon ig"
+              title="Instagram"
+              >📸</a
+            >
+            <a
+              href="https://www.facebook.com/coolpahadiofficial/"
+              target="_blank"
+              class="nav-social-icon fb"
+              title="Facebook"
+              >f</a
+            >
+            <a
+              href="https://wa.me/918755812267"
+              target="_blank"
+              class="nav-social-icon wa"
+              title="WhatsApp"
+              >💬</a
+            >
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#rooms">Our Rooms</a></li>
+            <li><a href="#food">Pahadi Food</a></li>
+            <li><a href="#treks">Trek Packages</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#youtube">YouTube Channel</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li>
+              <a href="https://wa.me/918755812267" target="_blank"
+                >WhatsApp Us</a
+              >
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@coolePahadi" target="_blank"
+                >YouTube: Coole Pahadi</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          © 2026 Cool Pahadi Homestay · Rashi Village, Uttarakhand · All Rights
+          Reserved
+        </p>
+        <p>
+          Crafted with ❤️ in the Himalayas ·
+          <a href="#privacy">Privacy Policy</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- ═══ WHATSAPP FLOAT ═══ -->
+    <a
+      href="https://wa.me/918755812267?text=Namaste%20Dippak%20ji%2C%20I%20found%20Cool%20Pahadi%20and%20would%20love%20to%20know%20more%20about%20staying%20with%20you!"
+      target="_blank"
+      class="wa-float"
+      title="Chat on WhatsApp"
+      >💬</a
+    >
+
+    <script src="script.js"></script>
+  </body>
+</html>
